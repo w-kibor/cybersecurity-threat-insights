@@ -84,4 +84,17 @@ Next I checked for the most common types of attacks to occur which included:
         8. Removable Media Attack
         9. Data Exfiltration
 
-![Top 10 Attack Types](C:\Users\Administrator\OneDrive\Pictures\New folder\Top 10 cyber attacks.png)
+![<img width="1482" height="687" alt="Top 10 cyber attacks" src="https://github.com/user-attachments/assets/046a9276-43d2-42c4-8639-5d26926d71ed" />
+]
+
+## ✅ 3. Targets of SQL Injection Attacks
+Analyzed which systems and technologies are most frequently targeted by SQL Injection (SQLi) attacks. Web applications, login forms, and database-driven platforms appear most vulnerable, highlighting the need for secure input handling and database access control.
+
+
+## ✅ 4. Common Vulnerabilities
+Extracted the most common security flaws exploited in cyber attacks. Frequent issues include unvalidated user inputs, weak encryption, outdated firmware, and misconfigured access controls — all of which create entry points for attackers.
+
+
+## ✅ 5. Most Common Cyber Attack Impacts
+Investigated the real-world consequences of different attacks. The most reported impacts include data breaches, financial losses, system downtime, unauthorized access, and full system takeovers — reinforcing the importance of proactive defense mechanisms.
+

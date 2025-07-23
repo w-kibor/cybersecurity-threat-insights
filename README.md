@@ -89,12 +89,74 @@ Next I checked for the most common types of attacks to occur which included:
 
 ## ✅ 3. Targets of SQL Injection Attacks
 Analyzed which systems and technologies are most frequently targeted by SQL Injection (SQLi) attacks. Web applications, login forms, and database-driven platforms appear most vulnerable, highlighting the need for secure input handling and database access control.
+![Targets of SQL Injection Attacks]
+<img width="1433" height="691" alt="target of sql injection" src="https://github.com/user-attachments/assets/7a3c6005-75af-4b1d-b2f9-c039b1cf61a4" />
 
 
 ## ✅ 4. Common Vulnerabilities
 Extracted the most common security flaws exploited in cyber attacks. Frequent issues include unvalidated user inputs, weak encryption, outdated firmware, and misconfigured access controls — all of which create entry points for attackers.
+![Common Vulnerabilities]
+
+<img width="1455" height="691" alt="most common vulnerabilities" src="https://github.com/user-attachments/assets/9cad9159-fdb2-48fc-82e4-103ce7a87d24" />
 
 
 ## ✅ 5. Most Common Cyber Attack Impacts
 Investigated the real-world consequences of different attacks. The most reported impacts include data breaches, financial losses, system downtime, unauthorized access, and full system takeovers — reinforcing the importance of proactive defense mechanisms.
+
+
+<img width="1422" height="683" alt="Most common cyber attacks impact" src="https://github.com/user-attachments/assets/c5a31f47-7c72-4bec-ab9b-4a811e282ba4" />
+
+## 🧠 Key Insights & Takeaways
+### 1. 🔐 Credential Theft is Dominant
+
+Credential theft appears twice (with minor case differences), making it the most frequently reported impact.
+
+This suggests attackers overwhelmingly target user authentication systems — making strong password policies, multi-factor authentication (MFA), and credential vaulting essential defenses.
+
+### 2. 💻 Remote Code Execution (RCE) is a Major Threat
+
+"Remote Code Execution" also shows up twice, indicating inconsistent labeling but high frequency.
+
+RCE allows attackers to take full control of a system remotely, which can lead to system compromise, lateral movement, or data exfiltration.
+
+### 3. 📉 Data Labeling Inconsistencies Exist
+
+Repeated terms with slight formatting differences (e.g., Remote Code Execution vs. Remote code execution) highlight the importance of data cleaning before modeling.
+
+You could consider grouping duplicates to improve analysis accuracy.
+
+### 4. 🧠 MITRE ATT&CK IDs Appear in Impact
+
+Entries like T0856 and T0884 refer to specific techniques from the MITRE ATT&CK framework.
+
+This means some records define “impact” using standardized tactic IDs, which might need to be separated or mapped for clearer interpretation.
+
+### 5. 🧨 Full System & Account Compromise are Serious Consequences
+
+These two are mid-frequency but highly critical. Once a system or account is fully compromised, attackers can escalate privileges, exfiltrate data, or disable systems.
+
+### 6. ⚠️ Unauthorized Access is Common but Underreported
+
+“Unauthorized access” shows up but seems less frequent — possibly because it’s often a precursor to other more severe impacts like credential theft or system compromise.
+
+### 7. Hardware Interface Exploitation and Wireless Attacks (Advanced) are the most common, with counts exceeding 140, indicating significant risks in hardware and wireless security.
+
+### 8.Dependency Confusion, Fuzzer Configuration, and Malicious Libraries follow with high counts (around 100-120), suggesting vulnerabilities in software dependencies and configuration settings are also widespread.
+
+### 9.Malicious Library, Privilege Escalation, and Misuse of Legitimate Tools show moderate prevalence (around 60-80), highlighting the importance of monitoring legitimate tool usage and privilege management.
+
+### 10.Removable Media Attack and Data Exfiltration have the lowest counts (around 40-60), indicating these are less frequent but still notable threats.
+
+## 💡 Recommendations Based on Insights
+Based on the insights, I recommend prioritizing security enhancements in hardware interfaces and wireless networks, as they are the most prevalent attack types. Additionally, addressing vulnerabilities in software dependencies and configuration settings could significantly reduce risks. Improving monitoring of legitimate tool usage and privilege management may also help mitigate moderate threats. Exploring simpler, customer-driven solutions could uncover new opportunities to strengthen defenses and gain a competitive edge.
+
+For Organizations, I recommend focusing on protecting against credential theft, as it is the most frequent impact with a count above 35. Strengthening authentication measures, such as multi-factor authentication, can help mitigate this risk. Additionally, addressing remote code execution and unauthorized access, which also show significant counts (around 20-30), by enhancing system security patches and access controls is advisable. Regular monitoring and updating of systems to prevent full system compromise and account compromise should also be prioritized.
+
+## ✅ Conclusion
+
+This project provided valuable insights into modern cybersecurity threats, especially the prevalence of credential theft, code execution vulnerabilities, and insecure IoT infrastructure. It demonstrates the power of data analysis in identifying attack trends and reinforces the importance of proactive defenses.
+
+Stay tuned for upcoming projects in my #30DaysWithData series, where I’ll continue exploring real-world datasets to build data-driven solutions.
+
+Feel free to ⭐️ this repo or connect with me on [LinkedIn](https://www.linkedin.com/in/wilkister-kibor/) to share feedback or ideas!
 
